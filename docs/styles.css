@@ -34,6 +34,11 @@ header {
 
 h1 {
   transform: translateZ(-10px) scale(2);
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  font-size: 18rem;
+  color: darkblue;
+  text-shadow: 0 0 10px whitesmoke;
+  z-index: -3;
 }
 
 .trees {
@@ -50,15 +55,6 @@ h1 {
   object-fit: cover;
   z-index: -1;
 }
-
-.title {
-  font-family: monospace;
-  font-size: 18rem;
-  color: blue;
-  text-shadow: 0 0 10px whitesmoke;
-  z-index: -3;
-}
-
 
 section {
   font-size: 2rem;
@@ -99,4 +95,10 @@ li a:hover:not(.active) {
 
 .active {
   background-color: gray;
+}
+
+h2 {
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  font-size: 8rem;
+  text-align: center;
 }
