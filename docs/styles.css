@@ -40,15 +40,11 @@ h1 {
   transform: translateZ(-7.5px) scale(2);
 }
 
-.grass {
-  transform: translateZ(-5px) scale(1.5);
-}
 
 .stars,
 .moon,
 .mountians,
-.trees,
-.grass {
+.trees {
   position: absolute;
   height: 100%;
   width: 100%;
