@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dogiyo</title>
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/4f6f9e8af8.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -14,19 +15,23 @@
       <img src="parallax/stars.png" class="stars" id="">
       <img src="parallax/moon.png" class="moon">
       <img src="parallax/mountians.png" class="mountians">
-      <h1>Portfolio</h1>
-      <img src="parallax/trees.png" class="trees">
+      <h1>Dogiyo</h1>
+      <img src="parallax/trees.png" class="trees" width="100%" height="100%">
     </header>
     <section>
-      <ul>
-        <li><a class="active" href="home">Home</a></li>
-        <li><a href="about">About me</a></li>
-        <li><a href="gallery/gallery.html">Gallery</a></li>
-      </ul>
-    </section>
-    <section>
+      <div class="nav" id="myNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="gallery/gallery.html">Gallery</a>
+        <a href="contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
       <h2>Hello world</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, magni quae, veritatis corporis labore molestiae voluptatibus architecto temporibus doloremque sed officiis modi aliquam cupiditate facere adipisci, enim quibusdam dolor nihil!</p>
     </section>
+    <script src="script.js"></script>
   </div>
 </body>
 </html>
