@@ -69,6 +69,14 @@ section {
   width: auto;
 }
 
+h2 {
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  font-size: 5vw;
+}
+/*Prompt text*/
+.pr {
+  font-family: 'Prompt', sans-serif;
+}
 
 /*Navbar*/
 .nav {
