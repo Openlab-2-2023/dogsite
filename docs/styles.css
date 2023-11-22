@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -69,14 +73,16 @@ section {
 /*Navbar*/
 .nav {
   overflow: hidden;
-  background-color: darkslategray;
+  background-color: #4361EE;
   font-family: 'Kdam Thmor Pro', sans-serif; 
+  border-radius: 7px;
+  box-shadow: 0 0px 15px blue;
 }
 
 .nav a {
   float: left;
   display: block;
-  color: black;
+  color: #4A4A4A;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -84,7 +90,7 @@ section {
 }
 
 .nav a:hover {
-  background-color: darkcyan;
+  background-color: blue;
   color: black;
 }
 
