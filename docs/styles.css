@@ -56,26 +56,17 @@ h1 {
 .trees {
   position: absolute;
   height: auto;
-  width: 100%;
   object-fit: cover;
   z-index: -1;
 }
 
-section {
+section { /*Nove body stranky*/
   font-size: 2rem;
   padding: 2rem;
-  background: linear-gradient(180deg, rgba(44,51,99,1) 0%, rgba(68,0,172,1) 100%);
+  background: indigo;
+  box-shadow: whitesmoke;
   height: auto;
   width: auto;
-}
-
-h2 {
-  font-family: 'Kdam Thmor Pro', sans-serif; 
-  font-size: 5vw;
-}
-/*Prompt text*/
-.pr {
-  font-family: 'Prompt', sans-serif;
 }
 
 /*Navbar*/
@@ -135,4 +126,33 @@ This class makes the topnav look good on small screens (display the links vertic
     display: block;
     text-align: left;
   }
-} 
+} /*End of Navbar*/
+
+
+#typing {/*Typing text*/
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 10vw;
+  border-right: 2px solid #333;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*Prompt text*/
+.pr {
+  font-family: 'Prompt', sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  text-shadow: white;
+}
+
+
+/* Footer */
+.footer {
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  padding: 1px;
+  font-size: 20px;
+  text-align: center;
+  background: darkslateblue;
+  position: relative;
+}
