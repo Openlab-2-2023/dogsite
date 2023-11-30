@@ -64,7 +64,6 @@ section { /*Nove body stranky*/
   font-size: 2rem;
   padding: 2rem;
   background: indigo;
-  box-shadow: whitesmoke;
   height: auto;
   width: auto;
 }
@@ -76,6 +75,7 @@ section { /*Nove body stranky*/
   font-family: 'Kdam Thmor Pro', sans-serif; 
   border-radius: 7px;
   box-shadow: 0 0px 15px blue;
+  margin: 0px;
 }
 
 .nav a {
@@ -128,21 +128,23 @@ This class makes the topnav look good on small screens (display the links vertic
   }
 } /*End of Navbar*/
 
-
-#typing {/*Typing text*/
+/*Typing text*/
+#typing {
   font-family: 'Kdam Thmor Pro', sans-serif; 
   font-size: 5vw;
   text-align: center;
   margin-top: 10vw;
-  border-right: 2px solid #333;
+  border: 2px solid #333;
   overflow: hidden;
   white-space: nowrap;
+  color: black;
+  background-color: #4361EE;
 }
 /*Prompt text*/
 .pr {
   font-family: 'Prompt', sans-serif;
   font-size: 3vw;
-  text-align: center;
+  text-align: center; 
   text-shadow: white;
 }
 
