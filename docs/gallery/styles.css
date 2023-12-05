@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +16,7 @@ body {
     overflow: hidden;
     background-color: #4361EE;
     font-family: 'Kdam Thmor Pro', sans-serif; 
-    border-bottom: 7px;
+    border-radius: 7px;
     box-shadow: 0 0px 15px blue;
     margin: 0px;
   }
@@ -67,7 +71,11 @@ body {
     }
   } /*End of Navbar*/
 
-  /*Picture grid*/
+
+  
+
+  
+
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -89,21 +97,26 @@ body {
     vertical-align: middle;
     width: 100%;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      padding-top: 2px;
+      padding-bottom: 2px;
     }
   }
+
+
+  /* Footer */
+.footer {
+  font-family: 'Kdam Thmor Pro', sans-serif; 
+  padding: 1px;
+  font-size: 20px;
+  text-align: center;
+  background: darkslateblue;
+  position: relative;
+}

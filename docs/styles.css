@@ -58,14 +58,17 @@ h1 {
   height: auto;
   object-fit: cover;
   z-index: -1;
+  size: 20vw;
 }
 
 section { /*Nove body stranky*/
   font-size: 2rem;
   padding: 2rem;
-  background: indigo;
+  background: black;
   height: auto;
   width: auto;
+  margin: 0px;
+  padding: 5px;
 }
 
 /*Navbar*/
@@ -73,9 +76,7 @@ section { /*Nove body stranky*/
   overflow: hidden;
   background-color: #4361EE;
   font-family: 'Kdam Thmor Pro', sans-serif; 
-  border-radius: 7px;
   box-shadow: 0 0px 15px blue;
-  margin: 0px;
 }
 
 .nav a {
@@ -134,20 +135,24 @@ This class makes the topnav look good on small screens (display the links vertic
   font-size: 5vw;
   text-align: center;
   margin-top: 10vw;
-  border: 2px solid #333;
   overflow: hidden;
   white-space: nowrap;
-  color: black;
-  background-color: #4361EE;
+  color: limegreen;
+  text-shadow: 0 0 15px white;
 }
 /*Prompt text*/
 .pr {
   font-family: 'Prompt', sans-serif;
   font-size: 3vw;
   text-align: center; 
-  text-shadow: white;
+  color: white;
+  text-shadow: 0 0 20px lightblue;
 }
 
+.content {
+  background-image: url();
+  margin: 0px;
+}
 
 /* Footer */
 .footer {
