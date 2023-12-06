@@ -8,7 +8,7 @@ function myFunction() {
     }
   }
 
-  const text = "Hello world!";
+  const text = "Parallax based website";
   let index = 0;
   const typingContainer = document.getElementById('typing');
   

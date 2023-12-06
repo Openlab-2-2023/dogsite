@@ -26,19 +26,19 @@ header {
 }
 
 .stars {
-  transform: translateZ(-25px) scale(3.5);
+  transform: translateZ(-15px) scale(3);
 }
 
 .moon {
-  transform: translateZ(-20px) scale(3);
+  transform: translateZ(-15px) scale(2);
 }
 
-.mountians {
-  transform: translateZ(-15px) scale(2.5);
+.background {
+  transform: translateZ(-7px) scale(1.7);
 }
 
 h1 {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-5px) scale(1/5);
   font-family: 'Kdam Thmor Pro', sans-serif; 
   color: rgba(44,51,99,1);
   text-shadow: 0 0 10px whitesmoke;
@@ -46,14 +46,10 @@ h1 {
   font-size: 20vw;
 }
 
-.trees {
-  transform: translateZ(-5px) scale(1.5);
-}
-
 .stars,
 .moon,
-.mountians,
-.trees {
+.background,
+.foreground {
   position: absolute;
   height: auto;
   object-fit: cover;
@@ -64,7 +60,7 @@ h1 {
 section { /*Nove body stranky*/
   font-size: 2rem;
   padding: 2rem;
-  background: black;
+  background: #000038;
   height: auto;
   width: auto;
   margin: 0px;
@@ -74,7 +70,6 @@ section { /*Nove body stranky*/
 /*Navbar*/
 .nav {
   overflow: hidden;
-  background-color: #4361EE;
   font-family: 'Kdam Thmor Pro', sans-serif; 
   box-shadow: 0 0px 15px blue;
 }
@@ -118,7 +113,7 @@ This class makes the topnav look good on small screens (display the links vertic
 @media screen and (max-width: 600px) {
   .nav.responsive {position: relative;}
   .nav.responsive .icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
@@ -137,8 +132,8 @@ This class makes the topnav look good on small screens (display the links vertic
   margin-top: 10vw;
   overflow: hidden;
   white-space: nowrap;
-  color: limegreen;
-  text-shadow: 0 0 15px white;
+  color: white;
+  text-shadow: 0 0 20px lime;
 }
 /*Prompt text*/
 .pr {
