@@ -26,19 +26,19 @@ header {
 }
 
 .stars {
-  transform: translateZ(-15px) scale(3);
+  transform: translateZ(-20px) scale(3);
 }
 
 .moon {
-  transform: translateZ(-15px) scale(2);
+  transform: translateZ(-15px) scale(2.5);
 }
 
 .background {
-  transform: translateZ(-7px) scale(1.7);
+  transform: translateZ(-13px) scale(2.3);
 }
 
 h1 {
-  transform: translateZ(-5px) scale(1/5);
+  transform: translateZ(-5px) scale(2);
   font-family: 'Kdam Thmor Pro', sans-serif; 
   color: rgba(44,51,99,1);
   text-shadow: 0 0 10px whitesmoke;
@@ -49,6 +49,7 @@ h1 {
 .stars,
 .moon,
 .background,
+.h1,
 .foreground {
   position: absolute;
   height: auto;
@@ -71,27 +72,32 @@ section { /*Nove body stranky*/
 .nav {
   overflow: hidden;
   font-family: 'Kdam Thmor Pro', sans-serif; 
-  box-shadow: 0 0px 15px blue;
 }
 
 .nav a {
+  margin-left: 2%;
   float: left;
-  display: block;
-  color: #4A4A4A;
+  display: flexbox;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  text-shadow: 0 0 10px black;
 }
 
 .nav a:hover {
-  background-color: blue;
-  color: black;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  text-shadow: 0 0 20px white;
+  transform: scale(1.1);
 }
 
 .nav a.active {
   background-color: rgb(15, 27, 102);
   color: white;
+  border-radius: 8px;
 }
 
 .nav .icon {
