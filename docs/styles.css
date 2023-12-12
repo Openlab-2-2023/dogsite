@@ -43,7 +43,7 @@ h1 {
   color: rgba(44,51,99,1);
   text-shadow: 0 0 10px whitesmoke;
   z-index: -3;
-  font-size: 20vw;
+  font-size: 15vw;
 }
 
 .stars,
@@ -55,10 +55,11 @@ h1 {
   height: auto;
   object-fit: cover;
   z-index: -1;
-  size: 20vw;
+  size: 100%;
 }
 
-section { /*Nove body stranky*/
+/*Nove body stranky*/
+section { 
   font-size: 2rem;
   padding: 2rem;
   background: #000038;
@@ -77,7 +78,6 @@ section { /*Nove body stranky*/
 .nav a {
   margin-left: 2%;
   float: left;
-  display: flexbox;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -153,6 +153,28 @@ This class makes the topnav look good on small screens (display the links vertic
 .content {
   background-image: url();
   margin: 0px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30vw;
+  color: white;
+  padding: 0px 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:1000px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /* Footer */
