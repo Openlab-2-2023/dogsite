@@ -134,7 +134,7 @@ This class makes the topnav look good on small screens (display the links vertic
 /*Typing text*/
 #typing {
   font-family: 'Kdam Thmor Pro', sans-serif; 
-  font-size: 5vw;
+  font-size: 6rem;
   text-align: center;
   margin-top: 10vw;
   overflow: hidden;
@@ -172,11 +172,30 @@ This class makes the topnav look good on small screens (display the links vertic
   height: 10vw;
   width: 10vw;
   margin: 30px;
-  z-index: 2;
 }
 
 #html {
-  background-image: url(pics/html.jpeg);
+  background: url(pics/html.jpeg) no-repeat;
+  background-size: 100%;
+}
+
+#css {
+  background: url(pics/css.jpeg) no-repeat;
+  background-size: 100%;
+}
+
+#js {
+  background: url(pics/css.jpeg) no-repeat;
+  background-size: 100%;
+}
+
+#java {
+  background: url(pics/css.jpeg) no-repeat;
+  background-size: 100%;
+}
+
+#java {
+
 }
 
 /* Footer */
