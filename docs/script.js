@@ -23,7 +23,7 @@ function myFunction() {
       }
     });
   }, { threshold: 0.5 });
-  
+    
   // Observe the typing container
   observer.observe(typingContainer);
   

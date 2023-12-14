@@ -1,12 +1,12 @@
-html {
+html { 
   scroll-behavior: smooth;
 }
 
-body {
+body { /*THis makes the page come to the very edge*/
   margin: 0;
 }
 
-.wrapper {
+.wrapper { /*This it the */
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -43,7 +43,7 @@ h1 {
   color: rgba(44,51,99,1);
   text-shadow: 0 0 10px whitesmoke;
   z-index: -3;
-  font-size: 15vw;
+  font-size: 10vw;
 }
 
 .stars,
@@ -73,6 +73,7 @@ section {
 .nav {
   overflow: hidden;
   font-family: 'Kdam Thmor Pro', sans-serif; 
+  margin-top: 20px;
 }
 
 .nav a {
@@ -144,37 +145,38 @@ This class makes the topnav look good on small screens (display the links vertic
 /*Prompt text*/
 .pr {
   font-family: 'Prompt', sans-serif;
-  font-size: 3vw;
+  font-size: 3rem;
   text-align: center; 
   color: white;
   text-shadow: 0 0 20px lightblue;
 }
 
-.content {
-  background-image: url();
-  margin: 0px;
+.col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30vw;
+.item {
+  padding: 10px;
   color: white;
-  padding: 0px 15px;
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: black;
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+  margin: 30px;
+  z-index: 2;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:1000px) {
-  .column {
-    width: 100%;
-  }
+#html {
+  background-image: url(pics/html.jpeg);
 }
 
 /* Footer */
@@ -185,4 +187,4 @@ This class makes the topnav look good on small screens (display the links vertic
   text-align: center;
   background: darkslateblue;
   position: relative;
-}
+} /* Footer */
