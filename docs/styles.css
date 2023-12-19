@@ -205,6 +205,12 @@ This class makes the topnav look good on small screens (display the links vertic
   background-color: #000079;
 }
 
+#vscode {
+  background: url(pics/vscode.svg) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
+}
+
 #docker {
   background: url(pics/docker.svg) no-repeat;
   background-size: 100%;
