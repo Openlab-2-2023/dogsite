@@ -167,35 +167,54 @@ This class makes the topnav look good on small screens (display the links vertic
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: black;
+  background-color: black;
   border-radius: 50%;
-  height: 10vw;
-  width: 10vw;
+  width: 10rem;
+  height: 10rem;
   margin: 30px;
+  justify-content: center;
 }
 
 #html {
-  background: url(pics/html.jpeg) no-repeat;
+  background: url(pics/html.svg) no-repeat;
   background-size: 100%;
+  background-color: #000079;
 }
 
 #css {
-  background: url(pics/css.jpeg) no-repeat;
+  background: url(pics/css.svg) no-repeat;
   background-size: 100%;
+  background-color: #000079;
 }
 
 #js {
-  background: url(pics/css.jpeg) no-repeat;
+  background: url(pics/js.svg) no-repeat;
   background-size: 100%;
+  background-color: #000079;
 }
 
 #java {
-  background: url(pics/css.jpeg) no-repeat;
+  background: url(pics/java.svg) no-repeat;
   background-size: 100%;
+  background-color: #000079;
 }
 
-#java {
+#mysql {
+  background: url(pics/sql.png) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
+}
 
+#docker {
+  background: url(pics/docker.svg) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
+}
+
+#linux {
+  background: url(pics/lin.svg) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
 }
 
 /* Footer */
