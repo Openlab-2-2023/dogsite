@@ -11,69 +11,59 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="nav" id="myNav">
-      <a href="portfolio.html">Portfolio  <i class="fa-solid fa-pen"></i></a>
-      <a href="gallery/gallery.html">Gallery  <i class="fa-solid fa-images"></i></a>
-      <a href="contact.html">Contact  <i class="fa-solid fa-phone"></i></a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i></a>
+<!--Navigation bar-->
+    <div id="nav">
+      <a href="#about">About <i class="fa-solid fa-pen"></i></a>
+      <a href="#skills">Skills <i class="fa-solid fa-computer"></i></a>
+      <a href="#contact">Contact <i class="fa-regular fa-address-card"></i></a>
     </div>
+<!--Header parallax-->
     <header>
       <img src="parallax/stars.png" class="stars">
       <img src="parallax/moon.png" class="moon">
       <img src="parallax/background.svg" class="background">
-      <h1>Dogsite</h1>
+      <h1>I am Ben</h1>
       <img src="parallax/foreground.svg" class="foreground">
     </header>
-    <section>
-      <p id="typing"></p>
-      <p class="pr">This is the official website of UserB3nj4m1n</p>
+<!--About-->
+    <section id="about">
+      <p id="typing">About me:</p>
+          <p class="pr">My name is Ben. I am full stack developer.<br>I have over a year of experience in programming.<br>And I have over 2 years of experience in graphical design.</p>
+          <p class="pr">You can download my resume here:</p>
+          <button></button>
     </section>
-    <section>
-      <main class="col">
-        <div class="item">
-          <h2>My life - Long story short:</h2>
-          <p>I'm a regular guy from the Zilina region, north-western Slovakia in Europe. I was born on January 2007 (That makes me 16 years-old). Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt, quas eligendi architecto molestias modi dolorem totam ducimus et ratione obcaecati quae alias mollitia, dicta ex deleniti? Voluptates, architecto voluptatibus. </p>
-        </div>
-        <div class="item">
-          <h2>Column</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-        </div>
-         <div class="item">
-          <h2>Column</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-        </div>
-      <main>
-    </section>
-    <section>
-      <div class="pr">Currently learning:</div>
+<!--Front end Skills-->
+    <section id="skills">
+      <p id="typing">Front-end experienxe:</p>
     <div class="col">
-        <div class="pr">HTML<div class="circle" id="html"></div></div>
-        <div class="pr">CSS<div class="circle" id="css"></div></div>
-        <div class="pr">JS<div class="circle" id="js"></div></div>
-        <div class="pr">JAVA<div class="circle" id="java"></div></div>
+        <div class="pr">HTML<button class="circle" id="html" onclick="window.location.href='https://www.w3schools.com/html/default.asp'"></button></div>
+        <div class="pr">CSS<button class="circle" id="css" onclick="window.location.href='https://www.w3schools.com/css/default.asp'"></button></div>
+        <div class="pr">JS<button class="circle" id="js" onclick="window.location.href='https://www.w3schools.com/js/default.asp'"></button></div>
+        <div class="pr">NextJS<button class="circle" id="njs" onclick="window.location.href=''"></button></div>
+        <div class="pr">ReactJS<button class="circle" id="rjs" onclick="window.location.href='https://www.w3schools.com/react/default.asp'"></button></div>
     </div>
     </section>
-  <section>
-    <div class="pr">Programs that I know & use:</div>
-  <div class="col">
-      <div class="pr">MySQL<div class="circle" id="mysql"></div></div>
-      <div class="pr">Docker<div class="circle" id="docker"></div></div>
-      <div class="pr">VSCode<div class="circle" id="vscode"></div></div>
-  </div>
-  </section>
-  <section>
-    <div class="pr">Projects that I'm working on:</div>
-    <div class="col"></div>
-      <div class="box"></div>
+<!--Back end Skills-->
+    <section>
+      <div id="typing">Back-end experience:</div>
+    <div class="col">
+        <div class="pr">Java<button class="circle" id="java" onclick="window.location.href='https://www.w3schools.com/java/default.asp'"></button></div>
+        <div class="pr">MySQL<button class="circle" id="mysql" onclick="window.location.href='https://www.w3schools.com/mysql/default.asp'"></button></div>
+        <div class="pr">MongoDB<button class="circle" id="mongodb" onclick="window.location.href='https://www.w3schools.com/mongodb/index.php'"></button></div>
+        <div class="pr">Docker<button class="circle" id="docker" onclick="window.location.href=''"></button></div>
     </div>
-  </section>
-    <div class="footer">
-      <p>
-        Dogiyo 2023 <i class="fa-regular fa-copyright"></i>
-      </p>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    </section>
+<!--Contact-->
+    <section>
+      
+    </section>
+<!--Skills
+    <section>
+      <div class="footer">
+          Dogiyo 2023 <i class="fa-regular fa-copyright"></i>
+      </div>
+    </section>-->
+</div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body { /*THis makes the page come to the very edge*/
+body { /*This makes the page come to the very edge*/
   margin: 0;
 }
 
@@ -43,7 +43,7 @@ h1 {
   color: rgba(44,51,99,1);
   text-shadow: 0 0 10px whitesmoke;
   z-index: -3;
-  font-size: 10vw;
+  font-size: 10rem;
 }
 
 .stars,
@@ -66,82 +66,20 @@ section {
   height: auto;
   width: auto;
   margin: 0px;
-  padding: 5px;
+  padding: 1px;
 }
-
-/*Navbar*/
-.nav {
-  overflow: hidden;
-  font-family: 'Kdam Thmor Pro', sans-serif; 
-  margin-top: 20px;
-}
-
-.nav a {
-  margin-left: 2%;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  text-shadow: 0 0 10px black;
-}
-
-.nav a:hover {
-  background-color: darkblue;
-  color: white;
-  border-radius: 8px;
-  text-shadow: 0 0 20px white;
-  transform: scale(1.1);
-}
-
-.nav a.active {
-  background-color: rgb(15, 27, 102);
-  color: white;
-  border-radius: 8px;
-}
-
-.nav .icon {
-  display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
-Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
-  .nav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
-This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .nav.responsive {position: relative;}
-  .nav.responsive .icon {
-    position: relative;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-} /*End of Navbar*/
 
 /*Typing text*/
 #typing {
   font-family: 'Kdam Thmor Pro', sans-serif; 
   font-size: 6rem;
   text-align: center;
-  margin-top: 10vw;
-  overflow: hidden;
-  white-space: nowrap;
+  margin-top: 50px;
+  margin-bottom: 20px;
   color: white;
   text-shadow: 0 0 20px lime;
 }
+
 /*Prompt text*/
 .pr {
   font-family: 'Prompt', sans-serif;
@@ -155,7 +93,6 @@ This class makes the topnav look good on small screens (display the links vertic
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px;
 }
 
 .item {
@@ -168,57 +105,59 @@ This class makes the topnav look good on small screens (display the links vertic
   flex-direction: row;
   justify-content: center;
   background-color: black;
-  border-radius: 50%;
+  border-radius: 30%;
   width: 10rem;
   height: 10rem;
   margin: 30px;
   justify-content: center;
+  transition: all 0.3s;
 }
-
+.circle :hover{
+  transform: translateY(-10px);
+  background-color: #000044;
+}
 #html {
   background: url(pics/html.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
 #css {
   background: url(pics/css.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
 #js {
   background: url(pics/js.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
+#njs {
+  background: url(pics/njs.svg) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
+}
+#rjs {
+  background: url(pics/rjs.svg) no-repeat;
+  background-size: 100%;
+  background-color: #000079;
+}
 #java {
   background: url(pics/java.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
 #mysql {
-  background: url(pics/sql.png) no-repeat;
+  background: url(pics/mysql.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
-#vscode {
-  background: url(pics/vscode.svg) no-repeat;
+#mongodb {
+  background: url(pics/mongo.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
-
 #docker {
   background: url(pics/docker.svg) no-repeat;
-  background-size: 100%;
-  background-color: #000079;
-}
-
-#linux {
-  background: url(pics/lin.svg) no-repeat;
   background-size: 100%;
   background-color: #000079;
 }
