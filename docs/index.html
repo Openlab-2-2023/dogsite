@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UserB3nj4m1n</title>
+<title>UserB3nj4m1n watermark</title>
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Prompt:wght@500&display=swap" rel="stylesheet"> 
 <script src="https://kit.fontawesome.com/4f6f9e8af8.js" crossorigin="anonymous"></script>
@@ -12,17 +12,17 @@
 <body>
   <div class="wrapper">
 <!--Navigation bar-->
-    <div id="nav">
+    <nav>
       <a href="#about">About <i class="fa-solid fa-pen"></i></a>
       <a href="#skills">Skills <i class="fa-solid fa-computer"></i></a>
       <a href="#contact">Contact <i class="fa-regular fa-address-card"></i></a>
-    </div>
+    </nav>
 <!--Header parallax-->
     <header>
       <img src="parallax/stars.png" class="stars">
       <img src="parallax/moon.png" class="moon">
       <img src="parallax/background.svg" class="background">
-      <h1>I am Ben</h1>
+      <h1>Ben's Portfolio</h1>
       <img src="parallax/foreground.svg" class="foreground">
     </header>
 <!--About-->
@@ -30,22 +30,22 @@
       <p id="typing">About me:</p>
           <p class="pr">My name is Ben. I am full stack developer.<br>I have over a year of experience in programming.<br>And I have over 2 years of experience in graphical design.</p>
           <p class="pr">You can download my resume here:</p>
-          <button></button>
+          <div class="col"><button id="dbt">Download</button></div><br><br><br>
     </section>
 <!--Front end Skills-->
     <section id="skills">
-      <p id="typing">Front-end experienxe:</p>
+      <p id="typing">Front-end experience:</p>
     <div class="col">
         <div class="pr">HTML<button class="circle" id="html" onclick="window.location.href='https://www.w3schools.com/html/default.asp'"></button></div>
         <div class="pr">CSS<button class="circle" id="css" onclick="window.location.href='https://www.w3schools.com/css/default.asp'"></button></div>
         <div class="pr">JS<button class="circle" id="js" onclick="window.location.href='https://www.w3schools.com/js/default.asp'"></button></div>
-        <div class="pr">NextJS<button class="circle" id="njs" onclick="window.location.href=''"></button></div>
         <div class="pr">ReactJS<button class="circle" id="rjs" onclick="window.location.href='https://www.w3schools.com/react/default.asp'"></button></div>
+        <div class="pr">NextJS<button class="circle" id="njs" onclick="window.location.href=''"></button></div>
     </div>
     </section>
 <!--Back end Skills-->
     <section>
-      <div id="typing">Back-end experience:</div>
+    <div id="typing">Back-end experience:</div>
     <div class="col">
         <div class="pr">Java<button class="circle" id="java" onclick="window.location.href='https://www.w3schools.com/java/default.asp'"></button></div>
         <div class="pr">MySQL<button class="circle" id="mysql" onclick="window.location.href='https://www.w3schools.com/mysql/default.asp'"></button></div>
@@ -54,8 +54,23 @@
     </div>
     </section>
 <!--Contact-->
-    <section>
-      
+    <section id="contact">
+      <div id="typing">Contact me:</div>
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+      </div>
     </section>
 <!--Skills
     <section>
