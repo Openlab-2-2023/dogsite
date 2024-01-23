@@ -10,19 +10,22 @@
 <script src="https://kit.fontawesome.com/4f6f9e8af8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!--Navigation bar-->
+  <nav>
+    <svg class="logo" viewBox="0 0 576 512"><path d="M309.6 158.5L332.7 19.8C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80H464 448 426.7l-5.1 30.5-112-64zM416 256.1L416 480c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h30 16H303.8L416 256.1zM464 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z"/></svg>
+    <a href="#contact">Contact <i class="fa-regular fa-address-card"></i></a>
+    <a href="#services">Services <i class="fa-solid fa-list"></i></a>
+    <a href="#skills">Skills <i class="fa-solid fa-computer"></i></a>
+    <a href="#resume">Resume <i class="fa-regular fa-file"></i> </a>
+    <a href="#about">About <i class="fa-solid fa-pen"></i></a>
+  </nav>
   <div class="wrapper">
-<!--Navigation bar-->
-    <nav>
-      <a href="#about">About <i class="fa-solid fa-pen"></i></a>
-      <a href="#skills">Skills <i class="fa-solid fa-computer"></i></a>
-      <a href="#contact">Contact <i class="fa-regular fa-address-card"></i></a>
-    </nav>
 <!--Header parallax-->
     <header>
       <img src="parallax/stars.png" class="stars">
       <img src="parallax/moon.png" class="moon">
       <img src="parallax/background.svg" class="background">
-      <h1>Ben's Portfolio</h1>
+      <h1>Hi, I'am Ben</h1>
       <img src="parallax/foreground.svg" class="foreground">
     </header>
 <!--About-->
@@ -30,54 +33,177 @@
       <p id="typing">About me:</p>
           <p class="pr">My name is Ben. I am full stack developer.<br>I have over a year of experience in programming.<br>And I have over 2 years of experience in graphical design.</p>
           <p class="pr">You can download my resume here:</p>
-          <div class="col"><button id="dbt">Download</button></div><br><br><br>
+          <div class="col"><button>Download CV</button></div>
     </section>
-<!--Front end Skills-->
-    <section id="skills">
-      <p id="typing">Front-end experience:</p>
-    <div class="col">
-        <div class="pr">HTML<button class="circle" id="html" onclick="window.location.href='https://www.w3schools.com/html/default.asp'"></button></div>
-        <div class="pr">CSS<button class="circle" id="css" onclick="window.location.href='https://www.w3schools.com/css/default.asp'"></button></div>
-        <div class="pr">JS<button class="circle" id="js" onclick="window.location.href='https://www.w3schools.com/js/default.asp'"></button></div>
-        <div class="pr">ReactJS<button class="circle" id="rjs" onclick="window.location.href='https://www.w3schools.com/react/default.asp'"></button></div>
-        <div class="pr">NextJS<button class="circle" id="njs" onclick="window.location.href=''"></button></div>
-    </div>
+<!--Resume-->
+    <section id="resume">
+      <div class="grid">
+        <!-- Experience -->
+          <h2>Experience:</h2>
+          <div class="sbox">
+            <h3>Responsiviy setting</h3>
+            <div>
+              <p>What I mean by this is that I would ask somebody if I could make their irresponsive website responsible, nice and shiny</p>
+            </div>
+          </div>
+          <div class="sbox">
+            <h3>Technical support</h3>
+            <div>
+              <p>Rather than paying for work some people don't know something so I ask them for help and they tip me.   </p>
+            </div>
+          </div>
+        <!-- Education -->
+          <h2>Education:</h2>
+          <div class="sbox">
+            <h3>Zakladna Skola Zborov nad Bystricou</h3><br>
+            <div>2013 - 2022</div>
+            <div>
+              <p class="ty">Uz od zakladnej skoly som sa naplno venoval pocitacom, ci vo forme hier alebo funkcii pocitaca. Bol som schopny si njst aj brigadu.</p>
+            </div>
+          </div>
+          <div class="sbox">
+            <h3>Stredna priemyselna skola informacnych technologii</h3>
+            <div>2022 - Current</div>
+            <div>
+              <p class="ty">Momentalne studujem tuto skolu, naucil som sa tu HTML, CSS. Momentalne sa ucim Javu a Javascript</p>
+            </div>
+          </div>
+      </div>
     </section>
-<!--Back end Skills-->
-    <section>
-    <div id="typing">Back-end experience:</div>
+<!-- Front-end Skills -->
+  <section id="skills">
+    <p id="typing">Front-end skills:</p>
     <div class="col">
-        <div class="pr">Java<button class="circle" id="java" onclick="window.location.href='https://www.w3schools.com/java/default.asp'"></button></div>
-        <div class="pr">MySQL<button class="circle" id="mysql" onclick="window.location.href='https://www.w3schools.com/mysql/default.asp'"></button></div>
-        <div class="pr">MongoDB<button class="circle" id="mongodb" onclick="window.location.href='https://www.w3schools.com/mongodb/index.php'"></button></div>
-        <div class="pr">Docker<button class="circle" id="docker" onclick="window.location.href=''"></button></div>
+      <div class="pr">
+        <span>HTML</span>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank"><button class="circle" id="html"></button></a>
+      </div>
+      <div class="pr">
+        <span>CSS</span>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank"><button class="circle" id="css"></button></a>
+      </div>
+      <div class="pr">
+        <span>JS</span>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank"><button class="circle" id="js"></button></a>
+      </div>
+      <div class="pr">
+        <span>ReactJS</span>
+        <a href="https://www.w3schools.com/react/default.asp" target="_blank"><button class="circle" id="rjs"></button></a>
+      </div>
+      <div class="pr">
+        <span>NextJS</span>
+        <a href="#" target="_blank"><button class="circle" id="njs"></button></a>
+      </div>
     </div>
+  </section>
+
+  <!-- Back-end Skills -->
+  <section id="backend-skills">
+    <div id="typing">Back-end skills:</div>
+    <div class="col">
+      <div class="pr">
+        <span>Java</span>
+        <a href="https://www.w3schools.com/java/default.asp" target="_blank"><button class="circle" id="java"></button></a>
+      </div>
+      <div class="pr">
+        <span>MySQL</span>
+        <a href="https://www.w3schools.com/mysql/default.asp" target="_blank"><button class="circle" id="mysql"></button></a>
+      </div>
+      <div class="pr">
+        <span>MongoDB</span>
+        <a href="https://www.w3schools.com/mongodb/index.php" target="_blank"><button class="circle" id="mongodb"></button></a>
+      </div>
+      <div class="pr">
+        <span>Docker</span>
+        <a href="#" target="_blank"><button class="circle" id="docker"></button></a>
+      </div>
+    </div>
+  </section>
+<!--Services-->
+    <section id="services">
+      <div id="typing">Services that I provide:</div>
+      <div class="grid">
+        <div class="sbox">
+            <h2>Web Design</h2>
+            <div class="ty">Need a standout website?<br>I specialize in crafting visually appealing and functional websites that elevate your online presence.
+          </div>
+        </div>
+        <div class="sbox">
+            <h2>UI Design</h2>
+            <div class="ty">Make your website both stunning and user-friendly. I create captivating interfaces that enhance the overall user experience.
+          </div>
+        </div>
+        <div class="sbox">
+            <h2>UX Design</h2>
+            <div class="ty">Ensure your users love every click. My UX design services focus on creating seamless and enjoyable digital journeys.
+          </div>
+        </div>
+        <div class="sbox">
+            <h2>App Design</h2>
+            <div class="ty">Launching an app? Let's create a top-notch mobile experience that users can't resist.
+          </div>
+        </div>
+        <div class="sbox">
+            <h2>Responsivity</h2>
+            <div class="ty">In a multi-device world, I design for all screens. Your audience gets the best experience, whether on desktop, tablet, or smartphone.
+          </div>
+        </div>
+        <div class="sbox">
+            <h2>Vector Graphics</h2>
+            <div class="ty">For visuals that pop and scale beautifully, I specialize in creating sharp vector graphics, be it icons, logos, or illustrations.
+          </div>
+        </div>
+      </div>
     </section>
 <!--Contact-->
     <section id="contact">
-      <div id="typing">Contact me:</div>
-      <div class="contact-form">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Submit</button>
+  <!-- Write Me Form -->
+      <div id="typing">Contact information</div>
+      <div class="flexboxes">
+        <form class="box" action="/write-me-endpoint" method="post">
+          <div class="box-header">Message me</div>
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your E-Mail">
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Your subject">
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit">Send now</button>
         </form>
-      </div>
+        <div class="line"></div>
+ <!-- Contact Info Info -->
+        <form class="box" action="/contact-info-endpoint" method="post">
+          <div class="box-header">Contact info</div>
+          <div class="form-group">
+            <label>Phone Number:</label>
+            <p><i class="fa-solid fa-phone"></i> <a class="info" href="tel:+421 0949 789 123">+421 0949 789 123</a></p>
+          </div>
+          <div class="form-group">
+            <label>E-Mail Address:</label>
+            <p><i class="fa-regular fa-envelope"></i> <a class="info" href="mailto:contact@dogiyo.net">contact@dogiyo.net</a></p>
+          </div>
+            <label>Visit my socials:</label>
+            <div class="social-icons">
+              <div class="tooltip"><a><i class="fa-brands fa-instagram"></i></a><div class="tooltiptext">ID: bengenix</div></div>
+              <div class="tooltip"><a><i class="fa-brands fa-x-twitter"></i></a><div class="tooltiptext">ID: bengenix</div></div>
+              <div class="tooltip"><a><i class="fa-brands fa-discord"></i></a><div class="tooltiptext">ID: bengenix</div></div>
+            </div>
+          </div>
+        </form>
+        <p class="ty">This was the websites asignment: <a class="info" href="https://github.com/Openlab-2-2023/.github/files/13373375/Polrocny.projekt.Openlab-2-2023.pdf">Click here</a></p>
     </section>
-<!--Skills
+    <!--Footer-->
     <section>
       <div class="footer">
-          Dogiyo 2023 <i class="fa-regular fa-copyright"></i>
+          Made by Dogiyo 2023 <i class="fa-regular fa-copyright"></i> All rights reserved.
       </div>
-    </section>-->
+    </section>
 </div>
 <script src="script.js"></script>
 </body>
