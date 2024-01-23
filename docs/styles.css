@@ -134,7 +134,7 @@ section {
 }
 .sbox:hover{
   transform: scale(1.01);
-  box-shadow: 0 0px 0px transparent;
+  box-shadow: 0 0px 1px transparent;
   position: absolute;
 }
 h2{
