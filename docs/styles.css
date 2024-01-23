@@ -97,6 +97,7 @@ section {
   height: auto;
   width: auto;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /*Typing text*/
