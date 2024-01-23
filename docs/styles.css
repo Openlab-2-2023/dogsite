@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .logo{
@@ -133,6 +134,7 @@ section {
 }
 .sbox:hover{
   box-shadow: 0 0px 1px transparent;
+  border: none;
 }
 h2{
   text-shadow: 0 0px 20px yellow; 
