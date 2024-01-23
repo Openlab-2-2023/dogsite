@@ -132,7 +132,6 @@ section {
   padding: 10px;
 }
 .sbox:hover{
-  transform: scale(1.01);
   box-shadow: 0 0px 1px transparent;
 }
 h2{
