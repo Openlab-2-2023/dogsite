@@ -135,8 +135,6 @@ section {
 .sbox:hover{
   transform: scale(1.01);
   box-shadow: 0 0px 0px transparent;
-  border-image: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
-  border: 3px;
   position: absolute;
 }
 h2{
