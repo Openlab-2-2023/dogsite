@@ -130,12 +130,10 @@ section {
   box-shadow: 0 0px 5px white; 
   transition: all 0.6s;
   padding: 10px;
-  position: absolute;
 }
 .sbox:hover{
   transform: scale(1.01);
   box-shadow: 0 0px 1px transparent;
-  position: absolute;
 }
 h2{
   text-shadow: 0 0px 20px yellow; 
